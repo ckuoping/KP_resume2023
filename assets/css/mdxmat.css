@@ -1,0 +1,213 @@
+/*========= INDIVIDUAL SETTING =========*/
+.banner-container,.research-container,.feature-container,.demo-container,.tech-container{
+    margin-bottom: 2.4rem;
+}
+.banner-container{
+    background-image: url("../img/mdxmat/mat_1.png");
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 5px rgba(229, 229, 229, 0.385);
+}
+
+.end-container{
+    background-image: url("../img/mdxmat/mat_10.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 5px rgba(229, 229, 229, 0.385);
+    width: 100%;
+    height: 500px;
+}
+
+.banner-container-txt{
+    display: flex;
+    align-items: center;
+    height:50vh;
+}
+
+.feature-img,.demo-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.4rem;
+}
+
+/*=========DEMO ICONS =========*/
+.bd-grid{
+    display: grid;
+    gap: 2.5rem;
+}
+
+.demo-wrapper{
+    grid-template-columns: repeat(1,5fr);
+}
+
+.demo_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo_icon{
+    font-size: 2.5rem;
+    color: #707070;
+    padding: 0.2rem;
+
+}
+
+.demo_icon:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+/*=========TECH ICONS =========*/
+.tech-wrapper{
+    grid-template-columns: repeat(5,1fr);
+}
+
+.tech_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech_icon{
+    font-size: 2.5rem;
+    color: #707070;
+    margin-bottom: 0.25rem;
+}
+#html{
+    color: orange;
+}
+#css{
+    color: rgb(0, 115, 255);
+}
+#ts{
+    color: skyblue;
+}
+
+#chart{
+    color: palevioletred;
+}
+
+#angular{
+    color: red;
+}
+
+
+/*========= GLOBAL SETTING =========*/
+.title{
+    text-align: center;
+    margin: 2.4rem 0;
+}
+
+/*========= MEDIA QUERY =========*/
+@media screen and (max-width:992px) {
+    .demo-wrapper{
+        grid-template-columns: repeat(5,1fr);
+    }
+    .end-container{
+        height: 400px;
+    }
+    .research-card{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+    .feature-img{
+        margin-bottom: 2.5rem
+    }
+    .demo-wrapper{
+        margin-bottom: 2.5rem
+    }
+    .demo_icon{
+        font-size: 1.75rem;
+        padding: 0.2rem;
+    
+    }
+}
+
+/*========= VERTICAL SLIDER =========*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+
+.slider-wrap
+{    
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+}
+.slider{
+    width: 100%;
+}
+    
+
+.slider-item{
+    width: 530px;
+    padding: 20px 0 25px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+    z-index: 0;
+    box-shadow: 0 4px 9px #f1f1f4;
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animation-card_image{
+    max-width: 60px;
+    max-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 9px rgba(241, 241, 244, 0.72);
+    background-color: #ffffff;
+}
+
+img.card-slider-img {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.animation-card_content{
+    width: 100%;
+    max-width: 374px;
+    margin-left: 26px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.animation-card_content_title{
+    color: #4a4545;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -.18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.animation-card_content_description{
+    color: #696d74;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin: 10px 0 0 0;
+}
+
+.animation-card_content_city{
+    font-size: 11px;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #696d74;
+}
+

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaterialWizard</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@100&family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- open css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- private css -->
+        <link rel="stylesheet" href="../css/magnify.css">
+        <link rel="stylesheet" href="../css/mdxmat.css">
+</head>
+<body>
+    <!-- BANNER -->
+    <div class="jumbotron jumbotron-fluid banner-container">
+        <div  class="container banner-container-txt">
+            <div>          
+                <h1 class="display-4">Material Wizard</h1>
+                <p class="lead">Polymer and non-polymer material database</p>
+            </div>
+        </div>
+    </div>
+    <!-- RESEARCH -->
+    <div class="container research-container">
+        <div style="margin: 0 auto;" class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 research-card">
+                <div class="card" style="width: 18rem; ">
+                    <img src="../img/mdxmat/mat_2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">User Research</h5>
+                      <p class="card-text">
+                        Collect user feedback on polymer material retrieval behavior, identify weaknesses in the previous version, and define future development specifications.                        
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 research-card">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/mdxmat/mat_3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">
+                        Using Adobe XD to complete UIUX mockups, and using Angular and front-end languages ( HTML, CSS, TypeScript, and Chart.js) to develope web application.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 research-card">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/mdxmat/mat_4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Desktop Application</h5>
+                      <p class="card-text">
+                        The web application was packaged into a desktop application using Electron and included in the Moldex3D Studio installation package. 
+                      </p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+    <!-- FEATURES -->
+    <div class="container feature-container">
+      <h2 class="title display-4">
+        Key Features
+      </h2>
+      <!-- feature 1 -->
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <img class="feature-img" width="100%" src="../img/mdxmat/mat_6.gif" alt="">
+        </div>
+        <div style="align-self: center;" class="col-lg-6 col-12">
+          <h5>Material Data and Curves</h5>
+          <p>
+            Material Wizard provides information of thousands of materials. The material list is displayed using a tree hierarchy component and material properties are horizontally arranged using tab components. Material data are visualized as line charts using Chart.js. 
+          </p>
+        </div>
+      </div>
+      <br>
+
+      <!-- feature 2 -->
+      <div class="row">
+        <div  class="col-lg-6 col-12">
+          <img class="feature-img" width="100%" src="../img/mdxmat/mat_7.gif" alt="">
+        </div>
+        <div style="align-self: center;" class="col-lg-6 col-12">
+          <h5>Create and Modify Material</h5>
+          <p>
+            Material Wizard also provides a material data editing feature. Using the Stepper component, properties of a material are listed, and parameters of each property are displayed using the table component. After the user completes all steps, the material editing is done. 
+          </p>
+        </div>
+      </div>
+      <br>
+
+    </div>
+    <!-- DEMO -->
+    <div class="container demo-container">
+      <h2 class="title display-4">
+        Demo
+      </h2>
+      <div class="row">
+        <div style="align-self: center;" class="col-12 col-lg-2">          
+            <div class="demo-wrapper bd-grid">
+              <div class="demo_content">
+                <i class='bx bx-book-reader demo_icon' data-id="1" data-toggle="tooltip" data-placement="right" title="View Material"></i>
+              </div>      
+              <div class="demo_content">
+                <i class='bx bx-cog demo_icon' data-id="2" data-toggle="tooltip" data-placement="right" title="Curve Setting" ></i>
+              </div>      
+              <div class="demo_content">            
+                <i class='bx bx-git-compare demo_icon' data-id="3" data-toggle="tooltip" data-placement="right" title="Compare Material"></i>     
+              </div>      
+              <div class="demo_content">
+                <i class='bx bx-search demo_icon' data-id="4" data-toggle="tooltip" data-placement="right" title="Search Material"></i>                      
+              </div>
+              <div class="demo_content">
+                <i class='bx bx-edit demo_icon' data-id="5" data-toggle="tooltip" data-placement="right" title="Modify Material Data"></i>                     
+              </div>
+            </div>         
+        </div>
+        <div class="col-12 col-lg-10 demo-img-wrapper">
+          <img class="demo-img zoom" width="100%" src="../img/mdxmat/mat_demo_1.png"  data-magnify-src="../img/mdxmat/mat_demo_1.png">
+        </div>
+      </div>
+    </div>
+    <!-- END -->
+    <div class="container-fluid end-container">
+    </div>
+    <!-- TECHNOLOGIES -->
+    <div class="tech-container">
+      <h2 class="title display-4">
+        Technology
+      </h2>
+      <div class="tech-wrapper bd-grid">
+        <div class="tech_content">
+          <i id="html" class='bx bxl-html5 tech_icon '></i>
+          <span class="interests_name">HTML</span>
+        </div>
+
+        <div class="tech_content">
+          <i id="css" class='bx bxl-css3 tech_icon ' ></i>
+          <span class="interests_name">CSS</span>
+        </div>
+
+        <div class="tech_content">
+          <i id="ts" class='bx bxl-typescript tech_icon' ></i>       
+          <span class="interests_name">Typescript</span>
+        </div>
+
+        <div class="tech_content">
+          <i id="chart" class='bx bx-line-chart-down tech_icon'></i>      
+          <span class="interests_name">Chart.js</span>
+        </div>
+
+        <div class="tech_content">
+          <i id="angular" class='bx bxl-angular tech_icon' ></i>
+          <span class="interests_name">Angular</span>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- VERTICAL SLIDER -->
+    <!-- <div class="slider-wrap">
+      <div id="card-slider" class="slider">
+        <div class="slider-item">
+            <div class="animation-card_image">
+                <img class="card-slider-img" src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
+            </div>
+            <div class="animation-card_content">
+                <h4 class="animation-card_content_title title-2">Charlize Theron 1</h4>
+                <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                <p class="animation-card_content_city">New York, NY</p>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="animation-card_image">
+                <img class="card-slider-img" src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
+            </div>
+            <div class="animation-card_content">
+                <h4 class="animation-card_content_title title-2">Charlize Theron 2</h4>
+                <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                <p class="animation-card_content_city">New York, NY</p>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="animation-card_image">
+                <img class="card-slider-img" src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
+            </div>
+            <div class="animation-card_content">
+                <h4 class="animation-card_content_title title-2">Charlize Theron 3</h4>
+                <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                <p class="animation-card_content_city">New York, NY</p>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="animation-card_image">
+                <img class="card-slider-img" src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
+            </div>
+            <div class="animation-card_content">
+                <h4 class="animation-card_content_title title-2">Charlize Theron 4</h4>
+                <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                <p class="animation-card_content_city">New York, NY</p>
+            </div>
+        </div>
+        <div class="slider-item">
+            <div class="animation-card_image">
+                <img class="card-slider-img" src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY317_CR12,0,214,317_AL_.jpg" alt="">
+            </div>
+            <div class="animation-card_content">
+                <h4 class="animation-card_content_title title-2">Charlize Theron 5</h4>
+                <p class="animation-card_content_description p-2">With no contractual commitments comes the freedom of having top notch content created whenever.</p>
+                <p class="animation-card_content_city">New York, NY</p>
+            </div>
+        </div>
+    </div>
+   
+    </div>   -->
+
+    <!-- JAVASCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="../js/jquery.magnify.js"></script>
+    <script src="../js/mdxmat.js"></script>
+</body>
+</html>

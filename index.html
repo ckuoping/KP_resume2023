@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@100&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- open css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- slider -->
+    <link rel="stylesheet" href="./assets/dist/css/splide.min.css">
+    <!-- private css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body >
+    
+    <!-- Header -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a  href="" class="nav_logo">Marvin</a>
+            
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home nav_icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon' ></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bx-book nav_icon' ></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon' ></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase nav_icon' ></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon' ></i>Expertise
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#references" class="nav_link">
+                            <i class='bx bx-link-external nav_icon' ></i>Portfolios
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- all content here is for pdf -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+                <!-- ADDRESS & CONTACT -->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                       <div class="home_data bd-grid">
+                        <img src="assets/img/profile.jpg" alt="" class="home_img">
+                        <h1 class="home_title">Marvin <b>Chang</b></h1>
+                        <h3 class="home_profession">Web Development & UIUX Design</h3>
+
+                        <div>
+                            <a download="" href="" class="home_button-movil">Download</a>
+                        </div>
+                       </div>
+
+                       <div class="home_address bd-grid">
+                        <span class="home_information">
+                            <i class='bx bx-map home_icon'></i>Hsinchu Taiwan
+                        </span>
+                        <span class="home_information">
+                            <i class='bx bx-envelope home_icon'></i>ckuoping@gmail.com
+                        </span>
+                        <span class="home_information">
+                            <i class='bx bxs-phone home_icon'></i>886 921 649 041
+                        </span>
+                       </div>
+                    </div>
+                    <!-- Theme Change Button -->
+                    <i class='bx bxs-moon change-theme' title="Theme" id="theme-button"></i>
+                    <!-- button to download pdf -->
+                    <!-- <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> -->
+                </section>
+                <!-- SOCIAL -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+                    <div class="social_container bd-grid">
+                        <a href="https://www.linkedin.com/in/kuoping-chang-a15193140/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin-square social_icon' ></i> Online Resume @ Linkedin
+                        </a>
+
+                        <a href="https://github.com/ckuoping" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon' ></i> Side Project @ Github
+                        </a>
+
+                        <a href="https://www.instagram.com/ckuoping/" target="_blank" class="social_link">
+                            <i class='bx bxl-instagram-alt social_icon' ></i> Project Showcase @ Instagram
+                        </a>
+                    </div>
+                </section>
+                <!-- PROFILE -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile_description">
+                        A senior UI developer with over 5 year experience in developing user interface of desktop and web applications. Currently working on front-end development and UIUX for <a href="https://www.moldex3d.com/">a CAE(Computer-aided Engineering) software</a>  targeting at B2B market. 
+                    </p>
+                </section>
+                <!-- EDUCATION -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+    
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Ergonomics and Interaction Design</h3>
+                                <span class="education_studies">Master's degree, NCKU</span>
+                                <span class="education_year">2013-2016</span>
+                            </div>
+                        </div>
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <!-- <span class="education_line"></span> -->
+                            </div>
+    
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Design for Interaction</h3>
+                                <span class="education_studies">Master's degree, TU Delft</span>
+                                <span class="education_year">2015-2016</span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+    
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">Industrial Design</h3>
+                                <span class="education_studies">Bachelor's degree, NCKU</span>
+                                <span class="education_year">2009-2013</span>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </section>
+                <!-- SKILLS IT-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">IT Skills</h2>
+                    <div class="skills_content bd-grid">
+
+                        <ul class="skills_data">
+
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>JavaScript
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>HTML
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>CSS
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Python
+                            </li>
+
+                        </ul>
+
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Angular
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>jQuery
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Chart.js
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Bootstrap
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- SKILLS UX-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">UX Skills</h2>
+                    <div class="skills_content bd-grid">
+
+                        <ul class="skills_data">
+
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Adobe XD
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Figma
+                            </li>
+
+                        </ul>
+
+                        <ul class="skills_data">
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Photoshop
+                            </li>
+                            <li class="skills_name">
+                                <span class="skills_circle"></span>Illustrator 
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="resume_right">
+
+                <!-- EXPERIENCE -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Project Deputy Manager<a href="./assets/html/mdxmat.html"  target="_blank" class="experience_link" data-toggle="tooltip" data-placement="right" title="Check Project"><i class='bx bx-folder-open experience_icon'></i></a></h3>
+                                <span class="experience_company">Sep 2020 to Present | Moldex3D </span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <li>Create and design new features on web applications using Angular</li>
+                                        <li>Front-end layout and responsive web design</li>
+                                        <li>UIUX design and qualitative user research</li>
+                                        <li>Design guideline and documents</li>
+                                        <b>Tools: HTML, CSS, JS, TS, Angular, Chart.js, Adobe XD</b>
+                                    </ul>
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Research Assistant <a href="https://ckuoping.github.io/KP_resume/html/project2.html"  target="_blank" class="experience_link" data-toggle="tooltip" data-placement="right" title="Check Project"><i class='bx bx-folder-open experience_icon'></i></a> </h3>
+                                <span class="experience_company">Jan 2019 to Jan 2020 | NTNU </span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <li>User interface design for VR gaming system</li>
+                                        <li>VR research project management</li>
+                                        <b>Tools: AdobeXD, Unity3D</b>
+                                    </ul>
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <!-- <span class="experience_line"></span> -->
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Research and Development Specialist <a href="https://ckuoping.github.io/KP_resume/html/project3.html"  target="_blank" class="experience_link" data-toggle="tooltip" data-placement="right" title="Check Project"><i class='bx bx-folder-open experience_icon'></i></a> </h3>
+                                <span class="experience_company">Nov 2017 to Jan 2019 | Industrial Technology Research Institute</span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <li>Data visualization using Python, VTK and PyQt</li>
+                                        <li>Build functionalities for transparent display system using Unity3D</li>
+                                        <li>User experience and field study of AR installations</li>
+                                        <b>Tools: Python, Unity3D</b>
+                                    </ul>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+
+                <!-- EXPERTISE -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Expertise</h2>
+                    <div class="certificate_container bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">Web Development</h3>
+                            <p class="certificate_descriptipn">
+                                Familiar with Angular, HTML, CSS, JavaScript and Typescript. Skilled in web page layout, DOM manipulation, and responsive design (RWD).  Experience with Node.js and Flask to integrate with REST APIs to develop complete web applications.
+                            </p>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">UIUX & Interaction Design</h3>
+                            <p class="certificate_descriptipn">
+                                Good at UIUX design. Familiar with Adobe XD to make wireframe and mockups. Worked with NTHU and NYCU in user research and usability evaluation. 
+                            </p>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">Project Management</h3>
+                            <p class="certificate_descriptipn">
+                                Define spec documents and design guidelines. As a team leader, I am also skilled at coordinating team members, tracking their progress to ensure that the project is completed on schedule.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- REFERENCES -->
+
+                <!-- <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+                    <div class="references_container bd-grid">
+                        <div class="references_content bd-grid">
+                            <span class="references_subtitle">job title1</span>
+                            <h3 class="references_title">Mr. Clay</h3>
+                            <ul class="references_contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: 123@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="references_content bd-grid">
+                            <span class="references_subtitle">job title2</span>
+                            <h3 class="references_title">Mr. Robin</h3>
+                            <ul class="references_contact">
+                                <li>Phone: 999-777-666</li>
+                                <li>Email: 123@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section> -->
+
+                <!-- PORTFOLIO -->
+                <section class="references section" id="references">
+                    <h2 class="section-title">Portfolios</h2>
+                    <div class="references_container">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div id="porfolio-1" class="carousel-item portfolio-position active">
+                                <img src="./assets/img/portfolios/air_1.png" class="d-block w-100" alt="...">
+                                <div class="portfolio-filter disappear">
+                                    <div class="portfolio-header">Taiwan Air Quality API data</div> 
+                                    <div class="portfolio-descrpt">Collect and render opendata of Taiwan air quality</div>
+                                </div>
+                              </div>
+                              <div id="porfolio-2" class="carousel-item portfolio-position">
+                                <img src="./assets/img/portfolios/sp_1.jpg" class="d-block w-100" alt="...">
+                                <div class="portfolio-filter disappear">
+                                    <div class="portfolio-header">Responsive Shopping Website</div> 
+                                    <div class="portfolio-descrpt">RWD design and photo showcase</div>
+                                </div>
+                            </div>
+                              <div id="porfolio-3" class="carousel-item portfolio-position">
+                                <img src="./assets/img/portfolios/lc_1.jpg" class="d-block w-100" alt="...">
+                                <div class="portfolio-filter disappear">
+                                    <div class="portfolio-header">Loan Prediction Website</div> 
+                                    <div class="portfolio-descrpt">Machine learning web service</div>
+                                </div>  
+                            </div>
+                              <div id="porfolio-4" class="carousel-item portfolio-position">
+                                <img src="./assets/img/portfolios/mp_1.jpg" class="d-block w-100" alt="...">
+                                <div class="portfolio-filter disappear">
+                                    <div class="portfolio-header">Mobile music player UIUX</div> 
+                                    <div class="portfolio-descrpt">Music APP interaction design</div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div>
+                </section>
+
+                <!-- LANGUAGE -->
+
+                <!-- <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="languages_container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>English
+                            </li>
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>Chinese
+                            </li>
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>Japanese
+                            </li>
+                        </ul>
+                    </div>
+                </section>    -->
+
+                <!-- INTERESTS -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+                    <div class="interests_container bd-grid">
+                        <div class="interests_content">
+                            <i class='bx bx-movie-play interests_icon'></i>
+                            <span class="interests_name">Movie</span>
+                        </div>
+
+                        <!-- <div class="interests_content">
+                            <i class='bx bxs-plane-alt interests_icon' ></i>
+                            <span class="interests_name">Travel</span>
+                        </div> -->
+
+                        <div class="interests_content">
+                            <i class='bx bxs-book interests_icon' ></i>
+                            <span class="interests_name">Read</span>
+                        </div>
+
+                        <div class="interests_content">
+                            <i class='bx bx-dumbbell interests_icon' ></i>
+                            <span class="interests_name">Fitness</span>
+                        </div>
+                    </div>
+                    
+                </section>   
+            </div>
+        </div>
+    </main>
+    
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop_icon' ></i>
+    </a>
+    
+
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- slider js -->
+    <script src="./assets/dist/js/splide.min.js"></script>
+    <!-- private js -->
+    <script src="./assets/js/script.js"></script>
+    <!-- HTML2PDF -->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
