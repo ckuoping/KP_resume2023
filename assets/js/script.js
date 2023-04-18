@@ -115,16 +115,16 @@ function generateResume(){
 }
 
 
-resumeButton.addEventListener('click',()=>{
-    // 1.change into narrower size
-    scaleCv();
+// resumeButton.addEventListener('click',()=>{
+//     // 1.change into narrower size
+//     scaleCv();
 
-    // 2.download pdf
-    generateResume();
+//     // 2.download pdf
+//     generateResume();
 
-    // 3. after 5 seconds and return to normal layout size
-    setTimeout(removeScale,5000);
-})
+//     // 3. after 5 seconds and return to normal layout size
+//     setTimeout(removeScale,5000);
+// })
 
 
 /*====================PORTFOLIO LINK====================*/ 
